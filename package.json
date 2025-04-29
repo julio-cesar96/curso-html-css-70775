@@ -1,0 +1,11 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "site em html e css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julio Cesar",
+  "license": "ISC"
+}
