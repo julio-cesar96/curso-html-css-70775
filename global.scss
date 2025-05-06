@@ -1,0 +1,21 @@
+$cor-primaria: #F5db00;
+
+@mixin centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    @include centralizado;
+    width: 400px;
+    height: 400px;
+
+    .container-text {
+        color: $cor-primaria;
+    }
+}
+
+.btn-primary {
+    background-color: $cor-primaria;
+}

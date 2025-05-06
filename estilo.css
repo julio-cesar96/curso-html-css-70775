@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+.container .container-text {
+  color: #F5db00;
+}
+
+.btn-primary {
+  background-color: #F5db00;
+}
+
+/*# sourceMappingURL=estilo.css.map */
