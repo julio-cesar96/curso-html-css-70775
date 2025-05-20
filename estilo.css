@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+.container .container-text {
+  color: #F5db00;
+}
+
+.btn-primary {
+  background-color: #F5db00;
+}
+
+
+.container-transform {
+  background-color: #F5db00;
+
+  transform: translate(50px, 100px); 
+  transform: rotate(45deg);
+}
+
+.button {
+  background-color: #0cffae;
+  transition: background-color 0.3s ease;
+  animation: moverParaDireita 2s ease-in-out 1;
+}
+
+.button:hover {
+  background-color: #047e56;
+}
+
+@keyframes moverParaDireita {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(200px);
+  }
+}
+
+
